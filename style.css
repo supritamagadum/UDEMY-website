@@ -1,0 +1,174 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+}
+.logo{
+    font-size: 60px;
+}
+nav{
+    margin: 20px;
+    padding: 10px;
+}
+nav a{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.image{
+     width: 20px;
+     height: 50px;
+
+}
+.container{
+    display: flex;
+    background-color: lightgrey;
+    
+}
+.img_container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+.cc{
+    margin: 30px;
+
+
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+    color: #29303b; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #e6e9ec;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ec1c24; 
+    text-decoration: none;
+}
+
+.login-button {
+    float: right;
+    background-color: transparent;
+    border: 1px solid #e6e9ec;
+    color: #29303b;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.demo-section {
+    padding: 40px 0;
+}
+
+.demo-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e6e9ec;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.form-buttons button {
+    background-color: #a2d162; 
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.demo-sidebar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-list li {
+    margin-bottom: 5px;
+}
+ @media (max-width: 768px) {
+    .demo-form {
+        grid-template-columns: 1fr;
+    }
+}
+.row1{
+    display: flex;
+    margin: 1%;
+
+}
+.product{
+    text-align: center;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.product button{
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+.row2{
+    display: flex;
+    margin: 1%;
+}
+.cart-item div{
+    height: 8%;
+    width: 20%;
+    justify-content: space-around;
+}
+.cart-item div img{
+    height: 200px;
+    width: 200px;
+}
+.cart-item div button{
+    width: 150px;
+    margin-top: 30px;
+    
+}
